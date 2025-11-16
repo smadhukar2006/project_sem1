@@ -1,1 +1,16 @@
+#include <stdio.h>
 
+int main(){
+    int seats[20] = {0};
+    int seatno, choice;
+
+    while(1){
+        printf("\n~~~~~~~~Ticket System~~~~~~~~~~~~\n");
+        printf("1.Show Tickets\n");
+        printf("2.Book Ticket\n");
+        printf("3.Cancel Ticket\n");
+        printf("4.Exit\n");
+        printf("Enter choice\t");
+        scanf("%d", &choice);
+    }
+};

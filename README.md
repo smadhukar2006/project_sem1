@@ -1,5 +1,5 @@
 # project_sem1
-## SAP Id - 590022545
+SAPID:590022545
 ## what does this contin??
         This program is a Simple Ticket Booking System made using C language.
         It allows the user to:

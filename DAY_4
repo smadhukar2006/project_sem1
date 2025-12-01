@@ -16,7 +16,7 @@
 
             case 1:
             printf("\nSeats Status (0 = Empty, 1 = Booked):\n");
-            for(int i = 0; i < 10; i++){
+            for(int i = 0; i < 20; i++){
             printf("Seat %d : %d\n" i+1, seats[i]);
             }
             break;
@@ -25,7 +25,7 @@
             printf("Enter seat number to book (1-20):");
             scanf("%d, &seatNo");
 
-            if(seatNo < 1 || seatNo > 10)
+            if(seatNo < 1 || seatNo > 20)
             printf("Invalid seat number!\n");
         else if(seats[seatNo-1] == 1)
         printf("Seat already booked!\n");
@@ -41,7 +41,7 @@
 
     if(seatNo < 1 || seatNo > 20)
     printf("Invalid seat number!\n");
-else if(seats[seatNo-1] == 0)
+else if(seats[seatcn-1] == 0)
 printf("Seat is already empty!\n");
         }
         break;

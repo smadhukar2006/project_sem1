@@ -25,12 +25,12 @@
             printf("Enter seat number to book (1-20):");
             scanf("%d", &seatNo);
 
-            if(seatNo < 1 || seatNo > 20)
+            if(seatcn < 1 || seatcn > 20)
             printf("Invalid seat number!\n");
             else if(seats[seatcn-1] == 1)
             printf("Seat already booked!\n");
             else{
-            seats[seatNo-1] = 1;
+            seats[seatcn-1] = 1;
             printf("Seat Booked successfully!\n");
             }
             break;
